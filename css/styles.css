@@ -58,7 +58,7 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #F9690E;
+  color: #FFD700; 
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
@@ -103,7 +103,7 @@ padding:0px;
 }
 .listarrow li i{
 padding-right:15px;
-color: #F9690E;
+color: #FFD700;
 }
 .column-title {
   margin-top: 0;
@@ -222,7 +222,7 @@ background: #FFF;
   #main-nav.navbar-default .navbar-nav > li:hover > a {
     background: transparent; 
 	
-    color: #F9690E;
+    color: #FFD700;
   
 }
   #main-nav.navbar-default .dropdown-menu {
@@ -291,7 +291,7 @@ background: #FFF;
   text-align: right;  
 }
 #hero-banner h2 b{
-color:#F9690E;
+color:#FFD700;
 }
 #hero-banner p { 
   font-size: 22px; 
@@ -312,8 +312,8 @@ text-align: center;
 width: 150px;
 margin: 0 auto;
 display: block;
-background: #F9690E;
-border: 2px solid #F9690E;
+background: #FFD700;
+border: 2px solid #FFD700;
 color: #FFF;
 }
 #hero-banner.banner-inner h2 > span {
@@ -430,7 +430,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #F9690E;
+  background: #FFD700;
   color: #FFFFFF; 
 } 
 #portfolio .portfolio-items {
@@ -448,7 +448,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
-  border-bottom: 4px solid #F9690E;
+  border-bottom: 4px solid #FFD700;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
@@ -475,7 +475,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #F9690E;
+  color: #FFD700;
   display:block;
   text-align: center;
 
@@ -614,7 +614,7 @@ color:#fff;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #F9690E;
+  color: #FFD700;
 }
  
 #our-team .social-icons {
@@ -682,7 +682,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #F9690E;
+	color: #FFD700;
 }
  
 .progress {
@@ -762,7 +762,7 @@ margin: 0;
   height: 140px;
   font-size: 24px;
   line-height: 140px;
-  border: 4px solid #F9690E;
+  border: 4px solid #FFD700;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -832,7 +832,7 @@ li.plan-purchase .btn {
 color: #FFFFFF;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #F9690E;
+  background: #FFD700;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
@@ -845,7 +845,7 @@ color: #FFFFFF;
 }
 /*Contact*/
  .contact-info{
- background: #F9690E;
+ background: #FFD700;
  padding: 50px;
  margin-bottom: 50px;
 }
@@ -882,7 +882,7 @@ width: 100px;
   color: #fff;
 }
 #footer a:hover {
-  color: #F9690E;
+  color: #FFD700;
 }
 #footer ul {
   list-style: none;
