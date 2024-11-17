@@ -45,9 +45,6 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-
-
-
 .gradiant {
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
@@ -600,6 +597,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
 #about {
+  text-align: left;
   padding: 100px 0;
   background: #07080A;
   background: url('../images/img2.jpg');
