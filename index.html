@@ -7,6 +7,7 @@
     <meta name="author" content="josipKrtolacic" />
     <title>powerflow house</title>
     <!-- core css -->
+    header
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <script
@@ -35,12 +36,8 @@
             <button
               type="button"
               class="navbar-toggle"
-              data
-              -
-              toggle="collapse"
-              data
-              -
-              target=".navbar-collapse"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
             >
               <span class="sr-only">toggle navigation </span>
               <span class="icon-bar"> </span>
@@ -65,9 +62,6 @@
                 <a href="#services">treninzi </a>
               </li>
               <li class="scroll"><a href="#about">o meni </a></li>
-              <li class="scroll">
-                <a href="#our-team">o meni </a>
-              </li>
               <li class="scroll">
                 <a href="#portfolio">slike </a>
               </li>
@@ -399,30 +393,34 @@
           <div class="col-sm-6 wow fadeinleft">
             <img class="img-responsive" src="images/about.png" alt="" />
           </div>
-
-          <div class="col-sm-6 wow fadeinright">
-            <h3 class="column-title">our fitness studio</h3>
-            <p>
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent
-              eget risus vitae massa semper aliquam quis mattis quam. morbi
-              vitae tortor tempus, placerat leo et, suscipit lectus. phasellus
-              ut euismod massa, eu eleifend ipsum.
-            </p>
-            <p>
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent
-              eget risus vitae massa semper aliquam quis mattis quam adipiscing
-              elit. praesent eget risus vitae massa.
-            </p>
-            <ul class="listarrow">
-              <li><i class="fa fa-angle-double-right"> </i> reformer</li>
-              <li><i class="fa fa-angle-double-right"> </i> fit boks</li>
-              <li>
-                <i class="fa fa-angle-double-right"> </i> individualni treninzi
-              </li>
-              <li><i class="fa fa-angle-double-right"> </i> grupni treninzi</li>
-              <li><i class="fa fa-angle-double-right"> </i> radno vrijeme</li>
-            </ul>
-          </div>
+          <template>
+            <div class="col-sm-6 wow fadeinright">
+              <h3 class="column-title">our fitness studio</h3>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                praesent eget risus vitae massa semper aliquam quis mattis quam.
+                morbi vitae tortor tempus, placerat leo et, suscipit lectus.
+                phasellus ut euismod massa, eu eleifend ipsum.
+              </p>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                praesent eget risus vitae massa semper aliquam quis mattis quam
+                adipiscing elit. praesent eget risus vitae massa.
+              </p>
+              <ul class="listarrow">
+                <li><i class="fa fa-angle-double-right"> </i> reformer</li>
+                <li><i class="fa fa-angle-double-right"> </i> fit boks</li>
+                <li>
+                  <i class="fa fa-angle-double-right"> </i> individualni
+                  treninzi
+                </li>
+                <li>
+                  <i class="fa fa-angle-double-right"> </i> grupni treninzi
+                </li>
+                <li><i class="fa fa-angle-double-right"> </i> radno vrijeme</li>
+              </ul>
+            </div>
+          </template>
         </div>
       </div>
     </section>
@@ -868,261 +866,141 @@
             semper aliquam quis mattis quam.
           </p>
         </div>
-        <template>
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div
-                class="wow zoomin"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="0ms"
-              >
-                <ul class="pricing">
-                  <li class="plan-header">
-                    <div class="price-duration">
-                      <span class="price"> $45 </span>
-                      <span class="duration"> per month </span>
-                    </div>
 
-                    <div class="plan-name">basic</div>
-                  </li>
-                  <li><strong>1 </strong> domain</li>
-                  <li><strong>100gb </strong> disk space</li>
-                  <li><strong>unlimited </strong> bandwidth</li>
-                  <li>shared ssl certificate</li>
-                  <li><strong>10 </strong> email address</li>
-                  <li><strong>24 /7 </strong> support</li>
-                  <li class="plan-purchase">
-                    <a class="btn btn-primary" href="#">get it now! </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div
-                class="wow zoomin"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="200ms"
-              >
-                <ul class="pricing featured">
-                  <li class="plan-header">
-                    <div class="price-duration">
-                      <span class="price"> $85 </span>
-                      <span class="duration"> per month </span>
-                    </div>
-
-                    <div class="plan-name">bronze</div>
-                  </li>
-                  <li><strong>5 </strong> domain</li>
-                  <li><strong>500gb </strong> disk space</li>
-                  <li><strong>unlimited </strong> bandwidth</li>
-                  <li>shared ssl certificate</li>
-                  <li><strong>30 </strong> email address</li>
-                  <li><strong>24 /7 </strong> support</li>
-                  <li class="plan-purchase">
-                    <a class="btn btn-primary" href="#">get it now! </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div
-                class="wow zoomin"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="400ms"
-              >
-                <ul class="pricing">
-                  <li class="plan-header">
-                    <div class="price-duration">
-                      <span class="price"> $125 </span>
-                      <span class="duration"> per month </span>
-                    </div>
-
-                    <div class="plan-name">silver</div>
-                  </li>
-                  <li><strong>10 </strong> domain</li>
-                  <li><strong>2gb </strong> disk space</li>
-                  <li><strong>unlimited </strong> bandwidth</li>
-                  <li>shared ssl certificate</li>
-                  <li><strong>50 </strong> email address</li>
-                  <li><strong>24 /7 </strong> support</li>
-                  <li class="plan-purchase">
-                    <a class="btn btn-primary" href="#">get it now! </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div
-                class="wow zoomin"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="600ms"
-              >
-                <ul class="pricing">
-                  <li class="plan-header">
-                    <div class="price-duration">
-                      <span class="price"> $185 </span>
-                      <span class="duration"> per month </span>
-                    </div>
-
-                    <div class="plan-name">gold</div>
-                  </li>
-                  <li><strong>15 </strong> domain</li>
-                  <li><strong>10gb </strong> disk space</li>
-                  <li><strong>unlimited </strong> bandwidth</li>
-                  <li>shared ssl certificate</li>
-                  <li><strong>100 </strong> email address</li>
-                  <li><strong>24 /7 </strong> support</li>
-                  <li class="plan-purchase">
-                    <a class="btn btn-primary" href="#">get it now! </a>
-                  </li>
-                </ul>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow zoomin"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <div class="table-container">
+                <h2>Individualni trening*</h2>
+                <table class="pricing-table">
+                  <tr>
+                    <th>Broj termina</th>
+                    <th>Cijena</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>30 €</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>135 €</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>250 €</td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
-        </template>
-
-        <!-- pricelist section -->
-
-        <div class="container">
-          <!-- Table 1 -->
-          <div class="table-container">
-            <h2>Individualni trening*</h2>
-            <table class="pricing-table">
-              <tr>
-                <th>Broj termina</th>
-                <th>Cijena</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>30 €</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>135 €</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>250 €</td>
-              </tr>
-            </table>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow zoomin"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <div class="table-container">
+                <h2>Pilates - reformer i half cadillac</h2>
+                <table class="pricing-table">
+                  <tr>
+                    <th>Broj termina</th>
+                    <th>Grupa od dvoje</th>
+                    <th>Grupa od troje</th>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>80 €</td>
+                    <td>60 €</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>140 €</td>
+                    <td>100 €</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>185 €</td>
+                    <td>130 €</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
-
-          <!-- Table 2 -->
-          <div class="table-container">
-            <h2>Pilates - reformer i half cadillac</h2>
-            <table class="pricing-table">
-              <tr>
-                <th>Broj termina</th>
-                <th>Grupa od dvoje</th>
-                <th>Grupa od troje</th>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>80 €</td>
-                <td>60 €</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>140 €</td>
-                <td>100 €</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>185 €</td>
-                <td>130 €</td>
-              </tr>
-            </table>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow zoomin"
+              data-wow-duration="400ms"
+              data-wow-
+              delay="400ms"
+            >
+              <div class="table-container">
+                <h2>Pilates na prostirci / Fit boks</h2>
+                <table class="pricing-table">
+                  <tr>
+                    <th>Broj termina</th>
+                    <th>Grupa od dvoje</th>
+                    <th>Grupa od troje</th>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>70 €</td>
+                    <td>50 €</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>105 €</td>
+                    <td>75 €</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>120 €</td>
+                    <td>85 €</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
-
-          <!-- Table 3 -->
-          <div class="table-container">
-            <h2>Pilates na prostirci / Fit boks</h2>
-            <table class="pricing-table">
-              <tr>
-                <th>Broj termina</th>
-                <th>Grupa od dvoje</th>
-                <th>Grupa od troje</th>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>70 €</td>
-                <td>50 €</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>105 €</td>
-                <td>75 €</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>120 €</td>
-                <td>85 €</td>
-              </tr>
-            </table>
-          </div>
-
-          <!-- Table 4 -->
-          <div class="table-container">
-            <h2>Kombinacije**</h2>
-            <table class="pricing-table">
-              <tr>
-                <th>Broj termina</th>
-                <th>Grupa od dvoje</th>
-                <th>Grupa od troje</th>
-              </tr>
-              <tr>
-                <td>2 + 2</td>
-                <td>75 €</td>
-                <td>55 €</td>
-              </tr>
-              <tr>
-                <td>4 + 4</td>
-                <td>120 €</td>
-                <td>85 €</td>
-              </tr>
-              <tr>
-                <td>6 + 6</td>
-                <td>150 €</td>
-                <td>105 €</td>
-              </tr>
-              <tr>
-                <td>8 + 8</td>
-                <td>175 €</td>
-                <td>120 €</td>
-              </tr>
-            </table>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow zoomin"
+              data-wow-duration="400ms"
+              data-wow-delay="600ms"
+            >
+              <div class="table-container">
+                <h2>Kombinacije**</h2>
+                <table class="pricing-table">
+                  <tr>
+                    <th>Broj termina</th>
+                    <th>Grupa od dvoje</th>
+                    <th>Grupa od troje</th>
+                  </tr>
+                  <tr>
+                    <td>2 + 2</td>
+                    <td>75 €</td>
+                    <td>55 €</td>
+                  </tr>
+                  <tr>
+                    <td>4 + 4</td>
+                    <td>120 €</td>
+                    <td>85 €</td>
+                  </tr>
+                  <tr>
+                    <td>6 + 6</td>
+                    <td>150 €</td>
+                    <td>105 €</td>
+                  </tr>
+                  <tr>
+                    <td>8 + 8</td>
+                    <td>175 €</td>
+                    <td>120 €</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1172,25 +1050,14 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div
                 class="wow fadeinup"
-                data
-                -
-                wow
-                -
+                data-wow-
                 duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="0ms"
+                data-wow-delay="0ms"
               >
                 <div
                   class="business-stats"
-                  data
-                  -
-                  digit="6850"
-                  data
-                  -
-                  duration="1000"
+                  data-digit="6850"
+                  data-duration="1000"
                 ></div>
                 <strong>clients </strong>
               </div>
@@ -1198,25 +1065,13 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div
                 class="wow fadeinup"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="100ms"
+                data-wow-duration="400ms"
+                data-wow-delay="100ms"
               >
                 <div
                   class="business-stats"
-                  data
-                  -
-                  digit="1465"
-                  data
-                  -
-                  duration="1000"
+                  data-digit="1465"
+                  data-duration="1000"
                 ></div>
                 <strong>trainer </strong>
               </div>
@@ -1224,25 +1079,13 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div
                 class="wow fadeinup"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="200ms"
+                data-wow-duration="400ms"
+                data-wow-delay="200ms"
               >
                 <div
                   class="business-stats"
-                  data
-                  -
-                  digit="4325"
-                  data
-                  -
-                  duration="1000"
+                  data-digit="4325"
+                  data-duration="1000"
                 ></div>
                 <strong>programs </strong>
               </div>
@@ -1250,25 +1093,13 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div
                 class="wow fadeinup"
-                data
-                -
-                wow
-                -
-                duration="400ms"
-                data
-                -
-                wow
-                -
-                delay="300ms"
+                data-wow-duration="400ms"
+                data-wow-delay="300ms"
               >
                 <div
                   class="business-stats"
-                  data
-                  -
-                  digit="2568"
-                  data
-                  -
-                  duration="1000"
+                  data-digit="2568"
+                  data-duration="1000"
                 ></div>
                 <strong>successes </strong>
               </div>
@@ -1426,92 +1257,45 @@
 
         <!-- Contact Card Section -->
         <div class="contact-card">
-          <img src="your-image.jpg" alt="Profile Picture" />
-          <h2>Josip Novak</h2>
-          <p>Software Engineer</p>
-          <p>📍 Zadar, Croatia</p>
           <p>
-            📧
-            <a href="mailto:josip.novak@example.com">josip.novak@example.com</a>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:powerflow.house@gmail.com"
+              >powerflow.house@gmail.com</a
+            >
           </p>
-          <p>📞 <a href="tel:+385123456789">+385 12 345 6789</a></p>
+          <p>
+            <i class="fa fa-phone"></i>
+            <a href="tel:+385917295089">+385 91 729 5089</a>
+          </p>
+
+          <!-- Google Maps Link -->
+          <p>
+            <i class="fa fa-map-marker"></i>
+            <a
+              href="https://www.google.com/maps/place/PowerFlow+House/@44.1319875,15.2340014,21z/data=!4m15!1m8!3m7!1s0x4761f09980566dbf:0xdc42f8935139d272!2sHrvatskih+knji%C5%BEevnika+30,+23000,+Zadar!3b1!8m2!3d44.1319368!4d15.2342026!16s%2Fg%2F11vqk_kqlk!3m5!1s0x4761f1ab3d7cce95:0xb3457701a266bad!8m2!3d44.1319368!4d15.2342026!16s%2Fg%2F11wqb90nh5?entry=ttu&g_ep=EgoyMDI0MTExOS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              >Hrvatskih književnika 30, Zadar</a
+            >
+          </p>
+
+          <!-- Social Media Links -->
+          <p>
+            <a href="https://www.instagram.com/powerflow_house" target="_blank">
+              <i class="fab fa-instagram"></i> powerflow_house
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.facebook.com/powerflow.house.zadar"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i> PowerFlow House Zadar
+            </a>
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- /#contact - us-->
-    <template>
-      <section id="contact">
-        <div class="container">
-          <div class="container contact-info">
-            <div class="row">
-              <div class="col-sm-4 col-md-4">
-                <div class="contact-form">
-                  <address>
-                    <strong>PowerFlow House</strong> <br />
-                    Hrvatskih književnika 30<br />
-                    23000 Zadar <br />
-                    +385 91 729 5089 <br />
-                    powerflow.house@gmail.com
-                  </address>
-                </div>
-              </div>
-              <div class="col-sm-8 col-md-8">
-                <div class="contact-form">
-                  <form
-                    id="main-contact-form"
-                    name="contact-form"
-                    method="post"
-                    action="#"
-                  >
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="name"
-                        class="form-control"
-                        placeholder="name"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        name="email"
-                        class="form-control"
-                        placeholder="email"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="subject"
-                        class="form-control"
-                        placeholder="subject"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <textarea
-                        name="message"
-                        class="form-control"
-                        rows="8"
-                        placeholder="message"
-                        required
-                      >
-                      </textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">
-                      send message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </template>
     <!-- /#bottom-->
 
     <template>
