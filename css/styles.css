@@ -783,6 +783,7 @@ margin: 0;
 }
 #pricing {
   padding: 100px 0 70px;
+  /* background-color: #ffffff; */
 }
 #pricing ul.pricing {
   list-style: none;
@@ -814,9 +815,11 @@ margin: 0;
   height: 85px;
   color: #474747;
 }
+/*
 li.plan-purchase .btn {
   width: 100%;
 }
+*/
 #pricing ul.pricing li.plan-header .price-duration > span {
   display: block;
   line-height: 1;

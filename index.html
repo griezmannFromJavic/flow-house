@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <meta name="author" content="webthemez" />
+    <meta name="author" content="josipKrtolacic" />
     <title>powerflow house</title>
     <!-- core css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -304,7 +304,7 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title wow fadeindown">o meni</h2>
-          <p class="wow fadeindown">
+		  <p class="wow fadeindown" style="text-align: left;">
             Zovem se Loreta Ivankov i sport je oduvijek bio važan dio mog
             života. Moje sportsko iskustvo počelo je 2001. godine, kada sam se,
             kao dijete, upisala na ritmiku u Zadru pod vodstvom Sanje Petrovski.
@@ -314,7 +314,7 @@
             je bio ključan period mog razvoja, gdje sam kroz mnogobrojne nastupe
             naučila puno o pokretu i estetici.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Moj interes za sport i tjelesnu aktivnost proširio se 2007. godine,
             kada sam se pridružila Taekwondo klubu Zadar, što je probudilo moj
             interes za borilačke sportove. Tražeći borilački sport za sebe,
@@ -327,7 +327,7 @@
             trenerima. Ova iskustva bila su zahtjevna, ali su me oblikovala kao
             sportaša, trenera i osobu.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Kako bih produbila svoje iskustvo i znanje te zbog interesa za
             pilates metodu i rad s utezima, 2015. godine upisala sam Stručni
             studij za izobrazbu trenera na Kineziološkom fakultetu Sveučilišta u
@@ -339,7 +339,7 @@
             studija počela sam voditi individualne i grupne treninge (pilates,
             boks, kružni treninzi, treninzi s opterećenjem...) sve do danas.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Kroz sva ova iskustva razvila sam svoj pristup treniranju koji se
             temelji na kombinaciji svega što sam do sada naučila. Počevši od
             vođenja zagrijavanja i istezanja dok sam bila član kluba,
@@ -350,7 +350,7 @@
             je kroz vlastito iskustvo, promatranje drugih i edukacije koje sam
             prošla.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Tijekom godina stekla sam niz certifikata u području fitnessa,
             rehabilitacije i masaže, uključujući DNS (stupanj A, B i C),
             postnatal, prenatal, limfnu drenažu, Emmett tehniku, kinesiotaping,
@@ -364,7 +364,7 @@
             trudnice, rehabilitacijske metode za osobe s ozljedama te
             konferencije fitness učilišta pa na dalje.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Moj pristup treningu temelji se na stvarnim potrebama klijenata.
             Trening prilagođavam zdravstvenoj povijesti (povrede, operacije i
             ostali zdravstveni problemi), fizičkoj spremnosti (trenutna razina
@@ -377,7 +377,7 @@
             nudim čarobna rješenja, već konkretan plan i podršku na vašem putu
             prema boljoj kondiciji i zdravlju.
           </p>
-          <p class="wow fadeindown">
+<p class="wow fadeindown" style="text-align: left;">
             Vjerujem je ključ u individualizaciji treninga – svaki klijent je
             drugačiji i zaslužuje plan koji je prilagođen njemu. Želja o
             otvaranju vlastitog studija prisutna je u mom razmišljanju još od
@@ -394,7 +394,7 @@
             zajedno.
           </p>
         </div>
-
+		<template>
         <div class="row">
           <div class="col-sm-6 wow fadeinleft">
             <img class="img-responsive" src="images/about.png" alt="" />
@@ -426,6 +426,7 @@
         </div>
       </div>
     </section>
+    </template>
     <!-- /#about-->
     <template>
       <section id="our-team">
@@ -1421,14 +1422,23 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title wow fadeindown">kontakt</h2>
-          <p class="wow fadeindown">
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. praesent
-            eget risus vitae massa <br />
-            semper aliquam quis mattis quam.
+        </div>
+
+        <!-- Contact Card Section -->
+        <div class="contact-card">
+          <img src="your-image.jpg" alt="Profile Picture" />
+          <h2>Josip Novak</h2>
+          <p>Software Engineer</p>
+          <p>📍 Zadar, Croatia</p>
+          <p>
+            📧
+            <a href="mailto:josip.novak@example.com">josip.novak@example.com</a>
           </p>
+          <p>📞 <a href="tel:+385123456789">+385 12 345 6789</a></p>
         </div>
       </div>
     </section>
+
     <!-- /#contact - us-->
     <template>
       <section id="contact">
@@ -1504,6 +1514,7 @@
     </template>
     <!-- /#bottom-->
 
+<template>
     <footer id="footer">
       <div class="container">
         <div class="row">
@@ -1532,7 +1543,7 @@
       </div>
     </footer>
     <!-- /#footer-->
-
+    </template>
     <!-- -->
 
     <script src="js/jquery.js"></script>
@@ -1545,4 +1556,5 @@
     <script src="js/wow.min.js"></script>
     <script src="js/custom-scripts.js"></script>
   </body>
+
 </html>
